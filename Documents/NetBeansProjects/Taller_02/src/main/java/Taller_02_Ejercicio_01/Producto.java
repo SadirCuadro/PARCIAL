@@ -19,7 +19,7 @@ public class Producto {
 
    
     public void Producto() {
-        String mensaje = "Producto: " + nombre + "\n Precio: $" + precio ;
+        String mensaje = "Producto: " + nombre + "\n Preciio: $" + precio ;
         
         JOptionPane.showMessageDialog(null, mensaje);
     }
