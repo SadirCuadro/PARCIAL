@@ -13,21 +13,21 @@ public class CuentaBancaria {
      
     }
 
-    // Constructor con dos parámetros
+    // Constructor con dos parametros
     public CuentaBancaria(String numeroCuenta, String tipoCuenta) {
         this.numeroCuenta = numeroCuenta;
         this.saldo = 0;
         this.tipoCuenta = tipoCuenta;
     }
 
-    // Constructor sobrecargado con tres parámetros
+    // Constructor sobrecargado con tres parametros
     public CuentaBancaria(String numeroCuenta, int saldo, String tipoCuenta) {
         this.numeroCuenta = numeroCuenta;
         this.saldo = saldo;
         this.tipoCuenta = tipoCuenta;
     }
 
-    // Método para mostrar detalles de la cuenta usando JOptionPane
+    
     public void Detalles() {
 String mensaje = "Cuenta Bancaria\n" + "Numero de Cuenta: " + numeroCuenta + "\n" + "Saldo unico es de: $" + saldo + "\n" + "Tipo de Cuenta: " + tipoCuenta;
         JOptionPane.showMessageDialog(null, mensaje);

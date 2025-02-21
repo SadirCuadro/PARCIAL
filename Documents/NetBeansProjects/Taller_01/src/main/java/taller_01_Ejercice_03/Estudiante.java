@@ -12,14 +12,14 @@ public class Estudiante {
    
     }
 
-    // Constructor con dos parámetros
+    // Constructor con dos parametros
     public Estudiante(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
         this.curso = "ya asignado";
     }
 
-    // Constructor con tres parámetros usando this()
+    // Constructor con tres parametros usando this()
     public Estudiante(String nombre, int edad, String curso) {
         this(nombre, edad);
         this.curso = curso;
