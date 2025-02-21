@@ -29,7 +29,7 @@ public class CuentaBancaria {
 
     
     public void Detalles() {
-String mensaje = "Cuenta Bancaria\n" + "Numero de Cuenta: " + numeroCuenta + "\n" + "Saldo unico es de: $" + saldo + "\n" + "Tipo de Cuenta: " + tipoCuenta;
+       String mensaje = "Cuenta Bancaria\n" + "Numeros de Cuenta: " + numeroCuenta + "\n" + "Saldo unico es de: $" + saldo + "\n" + "Tipo de Cuenta: " + tipoCuenta;
         JOptionPane.showMessageDialog(null, mensaje);
     }
 }
